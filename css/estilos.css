@@ -1,0 +1,114 @@
+body{
+	font-family: 'Architects Daughter';
+}
+
+nav{
+	background-color: rgb(0, 162, 232);
+	height: 50px;
+}
+
+nav > ul{
+	position: absolute;
+	right: 10px;
+	top: 0px;
+	text-align: right;
+}
+
+
+.menuitem{
+	background-color: rgb(158, 58, 58);
+	color: white;
+	font-size: 25px;
+	text-decoration: none;		
+}
+
+.menuitem:hover{
+	background-color: rgb(148, 48, 48);
+	font-weight: bold;
+}
+
+.menuseleccionado{
+	border: 2px dotted lime;
+}
+
+#imagenes{
+	height: 250px;
+	padding: 10px;
+	border-bottom: 1px solid black;
+	text-align: center;
+}
+
+#imagenes img{
+	height: 250px;
+}
+
+#descripcion{
+	text-align: center;	
+	font-size: 25px;
+}
+
+tbody{
+	background-color: #333;
+	font-family: verdana;
+	font-size: 12px;
+	color: white;
+}
+
+thead{
+	background-color: rgb(205, 205, 205);
+	text-transform: uppercase;
+}
+
+td{
+	text-transform: capitalize;	
+	margin: 2px;
+}
+
+.filapar{
+	background-color: white;
+	color: black;
+}
+
+.filaimpar{
+	background-color: rgb(225, 225, 225);
+	color: black;
+}
+
+tr:hover{
+	background-color: yellow;
+	color: black;
+}
+
+#integrantes{
+	display: flex;
+  	flex-wrap: wrap;
+  	margin: 0px 5% 0px 5%;
+}
+
+.alumno{
+	padding: 0px 10px 0px 10px;
+	border-left: 1px solid black;
+}
+
+.alumno p{
+	text-align: center;
+	font-size: 25px;
+}
+
+.alumno img{
+	width: 175px;
+	height: 175px;
+	margin: 0px 25% 0px 25%;
+	border:2px solid black;
+	border-radius: 50%;
+
+}
+
+footer img{
+	position: absolute;
+	right: 10px;	
+}
+
+footer p{
+	float: left;
+}
