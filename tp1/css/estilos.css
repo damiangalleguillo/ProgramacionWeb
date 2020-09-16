@@ -47,6 +47,12 @@ nav > ul{
 	font-size: 25px;
 }
 
+#productos p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
 tbody{
 	background-color: #333;
 	font-family: verdana;
@@ -64,17 +70,17 @@ td{
 	margin: 2px;
 }
 
-.filapar{
+tbody tr:nth-child(even){
 	background-color: white;
 	color: black;
 }
 
-.filaimpar{
+tbody tr:nth-child(odd){
 	background-color: rgb(225, 225, 225);
 	color: black;
 }
 
-tr:hover{
+tbody tr:hover{
 	background-color: yellow;
 	color: black;
 }
